@@ -199,6 +199,26 @@ class ConnectDB:
                 self.con.commit()
                 print('\n[!] Se agrego transaccion,bot y relacion [!]')
 
+    def insert_serveral(self, dataTrades,dataBot):
+        self.insert_several_trade(dataTrades)
+        self.insert_several_bot(dataBot)
+        self.insert_several_trade_bot(dataBot)
+        #newRel= (dataTrades[0],dataBot[0])
+        #if(self.not_exist_rel(newRel) is None):
+        #    query = '''INSERT INTO trades_bots 
+        #    (r_trade_id,r_bot_id) 
+        #    VALUES (%s, %s);'''
+        #    print(newRel)
+        #    try:
+        #        self.cur.execute(query, newRel)
+        #    except Exception as e:
+        #        self.con.rollback()
+        #        print('\n[x] Fallo al insertar [x]')
+        #        print(f'[x] (Rollback) [x]: {e}\n')
+        #    else:
+        #        self.con.commit()
+        #        print('\n[!] Se agrego transaccion,bot y relacion [!]')
+
     def find_trade_by_id(self, tradeid):
         query = 'SELECT * FROM trades WHERE trade_id = %s;'
         self.cur.execute(query, (tradeid,))

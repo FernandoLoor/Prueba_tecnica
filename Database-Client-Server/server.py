@@ -60,12 +60,16 @@ def validIsSelling(selling) -> Result:
 
 @method
 def register_api(id,price,quant,time,selling,id_bot,ip_bot):
-    
     validTradeId(id)    
     t = (id,price,quant,time,selling)
     b = (id_bot,ip_bot)
     database.insert(dataTrades=t,dataBot=b)
     return Success(True)
+
+@method
+def register_api_batch(data):
+    #Loop para recorrer el batch.
+    database.insert_several(data)       #Programar usando como modelo el metodo insert() de la DB
 
 if __name__ == "__main__":
     global database 
