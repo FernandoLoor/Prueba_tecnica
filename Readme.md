@@ -10,7 +10,7 @@ En el repositorio se incluye una notebook de Python utilizada para análisis exp
 ## Para generar el reporte de ejemplo
 
 Los datasets resultantes del proceso de ETL se almacenan en la carpeta "AggregatedDatasets", desde donde son cargados por la herramienta de visualización, la cuál puede correrse descargando el repositorio localmente e instalando plotly y dash. 
-- En la carpeta “components”, abrir una terminal y usar:
+- En la carpeta "src", abrir una terminal y usar:
 >pip install plotly==5.14.1
 >pip install dash
 >python Report.py
