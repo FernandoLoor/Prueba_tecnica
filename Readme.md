@@ -24,10 +24,10 @@ En el archivo “Propuesta_High_End.pdf” se describe el diseño de la solució
 
 ## Requerimientos
 
-1.  SEABORN.    
-2.  PANDAS.
-3.  Plotly + DASH.
-4.  MySQL server.
-5.  MYSQL CONNECTOR for Python.
-6.  FLASK.
-7.  PYARROW.
+1.  Seaborn
+2.  Pandas
+3.  Plotly + Dash
+4.  MySQL server
+5.  MYSQL Connector for Python
+6.  Flask
+7.  PyArrow
