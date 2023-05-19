@@ -1,8 +1,0 @@
-PASAR AL MARKDOWN
-
-Para ingresar en mysql 
-mysql -u oper -p
-Selecionar la BD
-use TRADER
-Borrar las tablas 
-DROP TABLE IF EXISTS trades_bots, trades, bots;
