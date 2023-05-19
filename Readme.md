@@ -17,10 +17,8 @@ Los datasets resultantes del proceso de ETL se almacenan en la carpeta "Aggregat
 - En la línea de comandos Dash publica la dirección localhost con el puerto respectivo, acceder a la misma con "Ctrl + Enter" y el tablero se abrirá en el navegador por defecto (testeado en Mozilla).
 
 ## Documentación
-En el archivo Descripción.pdf se encuentran comentarios de los puntos 1 y 2 de la consigna. El punto 2 explica con un poco más de detalle la estructura del repositorio y la función de cada script.
 
-En el archivo “Propuesta_High_End.pdf” se describe el diseño de la solución para el punto 3 de la consigna.
-
+En el archivo docs/Solutions.pdf se encuentran descripciones de las soluciones a cada punto del examen.
 
 ## Requerimientos
 
